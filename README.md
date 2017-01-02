@@ -1,4 +1,4 @@
-# Docker Base Image for Blacklabelops Images
+# Docker Base Image for ASoS Images
 
 Alpine images are smaller than full distributions, e.g. CentOS. This is a base image with some tweaks based on the official alpine image on Dockerhub.
 
@@ -7,11 +7,11 @@ Alpine images are smaller than full distributions, e.g. CentOS. This is a base i
 # Build the Image
 
 ~~~~
-$ docker build -t blacklabelops/alpine .
+$ docker build -t asos/alpine .
 ~~~~
 
 # Run the Image
 
 ~~~~
-$ docker run -it --rm blacklabelops/alpine bash
+$ docker run -it --rm asos/alpine bash
 ~~~~

@@ -1,5 +1,5 @@
 FROM alpine:3.4
-MAINTAINER Steffen Bleul <sbl@blacklabelops.com>
+MAINTAINER Louran <louran@asosgaming.com>
 
 RUN apk upgrade --update && \
     apk add \
